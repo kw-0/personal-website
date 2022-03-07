@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-
+<!-- Remeber to test for different screen resolutions -->
+<!-- Organize everything better at some point! -->
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 <script src="script.js"></script>
 </head>
@@ -12,11 +14,20 @@
 <button class="tablink" onclick="openPage('essays', this, 'blue')">Essays and Stories</button>
 <button class="tablink" onclick="openPage('contact', this, 'orange')">Contact</button>
 
-<div id="home" class="tabcontent">
-  <h3>: Kylen</h3>
-  <h3>Williams :</h3>
-  <p>I'm not sure exactly haha</p>
+<div id="home" class="tabcontent hero-pic"> 
+    <div class="home-title">
+      <h1 style="font-size:70px">:Kylen</h1>
+      <h1 style="font-size:70px"> &emsp; Williams:</h1>
+      <h2>Programmer, Writer, Pancake Enthusiast</h2>
+    </div>
+    
+    <div id = "home" class="home-text">
+      <p> Words </p>
+    </div>
 </div>
+<div id="home" class="hero-pic"></div>
+
+
 
 <div id="projects" class="tabcontent">
   <h3>Projects!</h3>
