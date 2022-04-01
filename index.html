@@ -1,48 +1,22 @@
 <!DOCTYPE html>
 <html>
-<!-- Remeber to test for different screen resolutions -->
-<!-- Organize everything better at some point! -->
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
-<script src="script.js"></script>
-</head>
+ <head>
+   <meta>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
 
-<body>
-<button class="tablink" onclick="openPage('home', this, 'red')">Home</button>
-<button class="tablink" onclick="openPage('projects', this, 'green')" id="defaultOpen">Projects!</button>
-<button class="tablink" onclick="openPage('essays', this, 'blue')">Essays and Stories</button>
-<button class="tablink" onclick="openPage('contact', this, 'orange')">Contact</button>
-
-<div id="home" class="tabcontent hero-pic"> 
-    <div class="home-title">
-      <h1 style="font-size:70px">:Kylen</h1>
-      <h1 style="font-size:70px"> &emsp; Williams:</h1>
-      <h2>Programmer, Writer, Pancake Enthusiast</h2>
-    </div>
-    
-    <div id = "home" class="home-text">
-      <p> Words </p>
-    </div>
-</div>
-<div id="home" class="hero-pic"></div>
-
-
-
-<div id="projects" class="tabcontent">
-  <h3>Projects!</h3>
-  <p>My projects</p>
-</div>
-
-<div id="essays" class="tabcontent">
-  <h3>Essays and Stories!</h3>
-  <p>Kylen likes writing!</p>
-</div>
-
-<div id="contact" class="tabcontent">
-  <h3>Contact me!</h3>
-  <p>Here will be the way to contact me</p>
-</div>
-</body>
-
+  <body>
+    <!-- Tab Links -->
+    <div class="tab">
+      <button onclick="location.href='index.html'" type="button"></a>
+        <div class="tab-font">Home</div>
+      </button>
+      <button onclick="location.href='projects.html'" type="button"></a>
+        <div class="tab-font">Projects</div></button>
+      <button onclick="location.href='writing.html'" type="button"></a>
+        <div class="tab-font">Writing</div></button>
+      <button onclick="location.href='contact.html'" type="button"></a>
+        <div class="tab-font">Contact</div>
+      </button>
 </html>
