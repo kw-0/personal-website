@@ -11,7 +11,18 @@ body{
     border: 1px solid #ccc;
     background-color: rgb(0, 0, 0);
 }
-  
+
+.title-font {
+    position: absolute;
+    top: 20vw;
+    left: 70vw;
+    transform: translate(-50%, -50%);
+
+    font-size: 3vw;
+    line-height: 0.4;
+    color: white;
+}
+
   /* Style the buttons that are used to open the tab content */
 .tab button{
     display: flex;
