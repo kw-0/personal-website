@@ -1,2 +1,2 @@
-# kylen-williams-site
-My personal website with projects and essays.
+# personal-website
+personal website code

@@ -1,4 +1,6 @@
-
+ /* test and cut anything unneccesary!
+    also for the love of Dijkstra please organize this spahget 
+    also make fonts and things more interesting*/
 body{
     color:rgb(0, 0, 0);
     background: rgb(0, 0, 0);
@@ -6,6 +8,7 @@ body{
 
 .tab {
     display: flex;
+    position: sticky;
     text-align: center;
     overflow: hidden;
     border: 1px solid #ccc;
