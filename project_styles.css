@@ -1,6 +1,3 @@
- /* test and cut anything unneccesary!
-    also for the love of Dijkstra please organize this spahget 
-    also make fonts and things more interesting*/
 body{
     color:rgb(0, 0, 0);
     background: rgb(0, 0, 0);
@@ -8,29 +5,17 @@ body{
 
 .tab {
     display: flex;
-    position: sticky;
     text-align: center;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: rgb(0, 0, 0);
 }
 
-.title-font {
-    position: absolute;
-    top: 20vw;
-    left: 70vw;
-    transform: translate(-50%, -50%);
-
-    font-size: 3vw;
-    line-height: 0.4;
-    color: white;
-}
-
-  /* Style the buttons that are used to open the tab content */
+/* Style the buttons that are used to open the tab content */
 .tab button{
     display: flex;
     flex-direction: row;
-    flex-wrap: auto;
+    /* flex-wrap: auto; */
     justify-content: center;
     flex: 1 1 auto;
     background-color: rgb(0, 0, 0);
@@ -56,4 +41,3 @@ body{
 .tab button.active {
     background-color: #ccc;
 }
-  
