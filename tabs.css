@@ -1,0 +1,45 @@
+body{
+    color:rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tab {
+    position: sticky; /* I'd like the tabs to scroll with you */
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: auto; */
+    justify-content: center;
+    flex: 1 1 auto;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab-font {
+    color :white;
+    text-align: left;
+    font-size: large;
+}
+  
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+  
+  /* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}

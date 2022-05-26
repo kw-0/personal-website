@@ -1,0 +1,66 @@
+ /* test and cut anything unneccesary!
+    also for the love of Dijkstra please organize this spahget 
+    also make fonts and things more interesting*/
+.title-font {
+    position: absolute;
+    top: 20vw;
+    left: 70vw;
+    transform: translate(-50%, -50%);
+
+    font-size: 3vw;
+    line-height: 0.4;
+    color: white;
+}
+
+.subtitle-font {
+    position: absolute;
+    top: 27.5vw;
+    left: 66.55vw;
+    transform: translate(-50%, -50%);
+
+    font-style: italic;
+    font-family: snell;
+    font-size: 1.5vw;
+    line-height: 0;
+    color: white;
+}
+
+.parallax {
+    background-image: url("imgs/black_flower.jpeg");  /* pic of me */
+    min-height: 100vh;
+    /* use clamp */
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.about-me-textbox {
+    /* background-image: url("imgs/stars2.jpeg"); */
+    background-color: black;
+    height: 100vh;
+    /* use clamp */
+    color: white;
+    background-size: cover;
+}
+
+.about-me-textbox h1 {
+    text-align: center;
+    color: white;
+}
+
+.about-me-textbox p {
+    /* the idea is that this would be sort of miniamalistically centered and use negative space */
+    position: relative;
+    color: white;
+    left: 20%;
+    top: 15%;
+    /* overflow-wrap: auto; */
+    background-color: transparent;
+    /* border-radius: 5vh 2.5vh; */
+    font-size: 1vw;
+    /* line-height: 0.4; */
+    width: auto;
+    /* padding: 5vw; */
+    /* height: 10vh; */
+}

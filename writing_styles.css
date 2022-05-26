@@ -1,0 +1,78 @@
+ /* test and cut anything unneccesary!
+    also for the love of Dijkstra please organize this spahget 
+    also make fonts and things more interesting*/
+.title-font {
+    position: absolute;
+    top: 25vw;
+    left: 30vw;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    line-height: 0.4;
+    color: white;
+}
+
+.writing-titles {
+  justify-content: center;
+  position: absolute;
+  top: 7vw;
+  left: 50vw;
+  width: 40vw;
+  border-left: solid whitesmoke;
+  border-radius: 4vw;
+  border-width: 0.75vw;
+  padding: 2vw;
+  padding-left: 2vw;
+  /* max-width: 500px; use clamp */
+} 
+
+.bottom-padding{
+  padding: clamp(0vw, 30vw, 40vw);
+}
+
+.flex-title {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.flex-span {
+  white-space: nowrap;
+}
+
+.title-main {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2vw;
+  color: white;
+  min-width: 27.0719vw;
+  /* max-width: 27.0719vw; */
+
+  white-space: nowrap;
+  margin: 0.2vw;
+}
+
+.title-note {
+  font-size: 1vw;
+  min-width: 10vw;
+  max-width: 10vw;
+  color: #999;
+}
+
+    /* .bracket:before {
+      content: '[';
+      color: #ffb1bb;
+      font-size: 60px;
+      text-align: right;
+      padding-right: 10px;
+    } */
+/* 
+    .bracket:after {
+      content: ']';
+      color: #ffb1bb;
+      font-size: 60px;
+      text-align: left;
+      padding-left: 10px;
+    } */
+
+  
+  
