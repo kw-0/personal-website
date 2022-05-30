@@ -7,3 +7,42 @@
     /* line-height: 0.4; */
     color: white;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+  
+.column {
+    flex-basis: 100vw;
+    padding: 15px;
+    /* border: 1px solid #666; */
+    border: transparent;
+    margin: 5px 0;
+    background: transparent;
+}
+
+/* change all the pixels to vw's  and style these better lol*/
+/* I would like these to have more space between them, be minimalistic (again check with Sophia/Jesse to see what they think) also lengthen the boxes */
+.project {
+    position:relative;
+    top: 20%;
+    left: 30%;
+    background-color:#ff0000;
+    border-color: white;
+    color: #fff;
+    border:10vw; 
+    border-radius:5vw; 
+    padding:1vw;
+    min-height: 20vw; 
+    min-width: 20vw;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 2vw;
+    margin-bottom: 70px;
+}
+
+.project:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
