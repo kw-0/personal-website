@@ -21,13 +21,15 @@
     transform: translate(-50%, -50%);
 
     font-style: italic;
-     font-size: 1.5vw;
+    font-size: 1.5vw;
     line-height: 0;
     color: white;
 }
 
 .parallax {
-    background-image: url("imgs/black_flower.jpeg");  /* pic of me */
+    background-color: black; /* change this to a pic of me w/ plain black background */
+    /* background-image: url("imgs/black_flower.jpeg");   */
+   
     min-height: 100vh;
     /* use clamp */
       background-attachment: fixed;
@@ -37,6 +39,7 @@
   }
 
 .about-me-textbox {
+    background-image: url("imgs/black_flower.jpeg");
     /* background-image: url("imgs/stars2.jpeg"); */
     background-color: black;
     height: 100vh;
@@ -51,17 +54,23 @@
 }
 
 .about-me-textbox p {
-    /* the idea is that this would be sort of miniamalistically centered and use negative space */
-    position: relative;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
     color: white;
-    left: 20%;
-    top: 15%;
-    /* overflow-wrap: auto; */
-    background-color: transparent;
-    /* border-radius: 5vh 2.5vh; */
-    font-size: 1vw;
-    /* line-height: 0.4; */
-    width: auto;
-    /* padding: 5vw; */
-    /* height: 10vh; */
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 0vw;
+    line-height: 2vw;
+    
+}
+
+.about-me-textbox h1 {
+    font-weight: normal;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    padding: 1vw;
 }

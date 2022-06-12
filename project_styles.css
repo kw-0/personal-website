@@ -1,48 +1,62 @@
 .title-font {
-    position: absolute;
-    top: 8vw;
-    left: 55vw;
-    /* transform: translate(-50%, -50%); */
-    font-size: 3.5vw;
-    /* line-height: 0.4; */
-    color: white;
+  position: absolute;
+  top: 8vw;
+  left: 60vw;
+  font-size: 3.5vw;
+  color: white;
+}
+
+.subtitle-font {
+  position: absolute;
+  top: 20.5vw;
+  left: 57.8vw;
+
+  font-style: italic;
+  font-size: 1.5vw;
+  line-height: 0;
+  color: white;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* border: 1px solid #666; */
 }
   
 .column {
-    flex-basis: 100vw;
-    padding: 15px;
-    /* border: 1px solid #666; */
-    border: transparent;
-    margin: 5px 0;
-    background: transparent;
+  flex-basis: 100vw;
+  padding: 2vw;
+  border: transparent;
+  background: transparent;
 }
 
 /* change all the pixels to vw's  and style these better lol*/
 /* I would like these to have more space between them, be minimalistic (again check with Sophia/Jesse to see what they think) also lengthen the boxes */
 .project {
-    position:relative;
-    top: 20%;
-    left: 30%;
-    background-color:#ff0000;
-    border-color: white;
-    color: #fff;
-    border:10vw; 
-    border-radius:5vw; 
-    padding:1vw;
-    min-height: 20vw; 
-    min-width: 20vw;
-    font-family:'Courier New', Courier, monospace; 
-    font-size: 2vw;
-    margin-bottom: 70px;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 0.5vw;
+  position:relative;
+
+  background-color:transparent;
+  border-color: white;
+  
+  border-radius:0.75vw;
+  border-width: 0.5vw;
+  padding:1.5vw;
+  height: 20vw; 
+  width: 13vw;
+  
+  text-align: left;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.5vw;
 }
 
 .project:hover {
-    background-color:#002ead;
-    transition: 0.7s;
+  background-color:white;
+  color: black;
+  transition: 0.7s;
 }
