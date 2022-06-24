@@ -12,7 +12,14 @@ h1 {
     text-align: center;
     color: white;
     font-size: 5vw;
-    padding: 1vw;
+    margin: 0vw;
+    margin-top: 1vw;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 2vw;
 }
 
 /* br {} */
