@@ -60,3 +60,13 @@
   color: black;
   transition: 0.7s;
 }
+
+p {
+  text-align: left;
+  color: white;
+  font-size: 12px;
+}
+
+p:hover{
+  color:#1a002c;
+}

@@ -22,4 +22,21 @@ h2 {
     font-size: 2vw;
 }
 
-/* br {} */
+img {
+    width: 48vw;
+}
+
+.footer{
+    background-color: white;
+    height: 42vh;
+
+    color: black;
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}

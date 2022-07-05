@@ -27,20 +27,23 @@
 }
 
 .parallax {
-    background-color: black; /* change this to a pic of me w/ plain black background */
-    /* background-image: url("imgs/black_flower.jpeg");   */
-   
+    /* background-color: black; change this to a pic of me w/ plain black background */
+    background-image: url("imgs/pfp.jpg");  
+
+    /* max-width: 50%; */
+    /* max-heightP */ 
     min-height: 100vh;
     /* use clamp */
+    left: 10vw;
       background-attachment: fixed;
-    background-position: center;
+    /* background-position: end; */
     background-repeat: no-repeat;
     background-size: cover;
   }
 
 .about-me-textbox {
-    background-image: url("imgs/black_flower.jpeg");
-    /* background-image: url("imgs/stars2.jpeg"); */
+    /* background-image: url("imgs/black_flower.jpeg"); */
+    background-image: url("imgs/stars2.jpeg");
     background-color: black;
     height: 100vh;
     /* use clamp */
