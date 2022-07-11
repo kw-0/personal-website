@@ -2,7 +2,6 @@
     also for the love of Dijkstra please organize this spahget 
     also make fonts and things more interesting*/
 
-/* fIX THe LeFT to RiGht ScrOlLiNg duDe! */
 .title-font {
     position: absolute;
     top: 20vw;
@@ -35,7 +34,7 @@
     min-height: 100vh;
     /* use clamp */
     left: 10vw;
-      background-attachment: fixed;
+    background-attachment: fixed;
     /* background-position: end; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,3 +77,29 @@
     font-size: 5vw;
     padding: 1vw;
 }
+
+.contact-me-textbox{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(252, 201, 210);
+    font-size: 1.5vw;
+    height: 4vw;
+    padding: 2vw;
+    font-weight: bold;
+}
+
+a:link {
+    color: rgb(252, 201, 210);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(248, 106, 130);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
