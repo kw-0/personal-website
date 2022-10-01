@@ -4,11 +4,11 @@
 
 .title-font {
     position: absolute;
-    top: 20vw;
-    left: 70vw;
+    top: 19vw;
+    left: 69vw;
     transform: translate(-50%, -50%);
 
-    font-size: 3vw;
+    font-size: 4vw;
     line-height: 0.4;
     color: white;
 }
@@ -16,28 +16,27 @@
 .subtitle-font {
     position: absolute;
     top: 27.5vw;
-    left: 66.55vw;
+    left: 65.55vw;
     transform: translate(-50%, -50%);
 
     font-style: italic;
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     line-height: 0;
     color: white;
 }
 
 .parallax {
     /* background-color: black; change this to a pic of me w/ plain black background */
-    background-image: url("imgs/pfp.jpg");  
-
-    /* max-width: 50%; */
-    /* max-heightP */ 
-    min-height: 100vh;
+    height: 100vh;
+    background-image: url("imgs/my_good_photo.png");  
+    
+    /* width: 1280px; */
+    /* left: vw; */
     /* use clamp */
-    left: 10vw;
     background-attachment: fixed;
-    /* background-position: end; */
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 55%;
   }
 
 .about-me-textbox {
